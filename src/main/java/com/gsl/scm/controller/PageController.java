@@ -21,7 +21,7 @@ public class PageController {
         log.info("Home page handler");
         model.addAttribute("name", "Substring Technologies");
         model.addAttribute("youtubeChannel", "Just love coding");
-        model.addAttribute("githubRepo", "https://github.com/learncodewithdurgesh/");
+        model.addAttribute("githubRepo", "https://github.com/gyarsilalsolanki011/");
         return "home";
     }
 

@@ -41,11 +41,11 @@ public class PageController {
 
     @GetMapping("/contact")
     public String contact() {
-        return new String("contact");
+        return "contact";
     }
 
     @GetMapping("/login")
     public String login() {
-        return new String("login");
+        return "login";
     }
 }

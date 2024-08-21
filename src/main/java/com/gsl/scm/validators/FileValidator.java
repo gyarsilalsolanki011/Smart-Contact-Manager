@@ -23,8 +23,7 @@ public class FileValidator implements ConstraintValidator<ValidFile, MultipartFi
         }
 
         // file size
-
-        log.info("file size: " + multipartFile.getSize());
+        log.info("file size: {}", multipartFile.getSize());
 
         if (multipartFile.getSize() > MAX_FILE_SIZE) {
             context.disableDefaultConstraintViolation();

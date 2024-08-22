@@ -1,0 +1,16 @@
+{
+  "name": "smart-contacts-manager",
+  "version": "1.0.0",
+  "description": "For further reference, please consider the following sections:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

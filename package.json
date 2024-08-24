@@ -1,7 +1,7 @@
 {
   "name": "smart-contacts-manager",
   "version": "1.0.0",
-  "description": "For further reference, please consider the following sections:",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {

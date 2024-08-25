@@ -21,9 +21,6 @@ public class ContactController {
     @Autowired
     private ImageService imageService;
 
-    @Autowired
-    private UserService userService;
-
     @RequestMapping("/add")
     public String addContactView(Model model) {
         ContactForm contactForm = new ContactForm();
